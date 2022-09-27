@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+
+
+/* POSICIONANDO LOS OJOS DE RICK AND MORTY */ 
+.eyes img{
+    border-radius: 50%;
+    position: absolute;
+}
+
+.eyes img:nth-child(1){
+    top: 269px;
+    left: 597px;
+}
+.eyes img:nth-child(2){
+    top: 263px;
+    left: 705px;
+}
+.eyes img:nth-child(3){
+    top: 502px;
+    left: 448px;
+}
+.eyes img:nth-child(4){
+    top: 525px;
+    left: 330px;
+}
+
+
+
+
+.img-cont{
+    position: relative;
+}
